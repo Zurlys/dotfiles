@@ -23,5 +23,9 @@ function code {
   fi
 }
 
+function update_branch_from_master(){
+  git checkout master && git pull && git checkout - && git rebase master
+}
+
 autoload -U +X bashcompinit && bashcompinit
 source /usr/local/etc/bash_completion.d/az
