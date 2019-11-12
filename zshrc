@@ -29,3 +29,5 @@ function update_branch_from_master(){
 
 autoload -U +X bashcompinit && bashcompinit
 source /usr/local/etc/bash_completion.d/az
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
