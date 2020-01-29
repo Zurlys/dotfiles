@@ -1,0 +1,2 @@
+# How long your uptime is? ;)
+uptime | perl -ne "/(\d+) d/;print 8,q(=)x\$1,\"D\n\""
